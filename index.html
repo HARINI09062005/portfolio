@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="'viewport" control="width-device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/585338d796.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            
+            <ul><span>H</span>ARINI.</ul>
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            
+            </ul>
+        
+        </nav>
+        <div class="container1">
+            <p>Student,A Learner</p>
+            <h1>Hi,I am <span>Harini.M</span><br> from India</h1>
+        </div>
+            
+    </div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/about1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Welcome to my digital space!Exploring the intersection of creativity and technology.I am Harini.M.I am from Chennai,Tamilnadu.A young mind,keen in gaining knowledge ......</p>
+                <p>DOB:09-06-2005</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')" >Education</p>
+                    <p class="tab-links" onclick="opentab('location')">Location</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>STUDENT</span><br>Computer Science Engineering</li>
+                        <li><span>ARTIST</span><br> Doing Diplomo course in artistry</li>
+                        <li><span>OTHERS</span><br>Karate,Abacus,Swimming</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>SCHOOLING</span><br>Completed schooling in St.Mark's Matriculation Higher Secondary School</li>
+                        <li><span>COLLEGE</span><br> Sri Sairam Engineering College</li>
+                        <li><span>COURSE</span><br>B.E.,Computer Science Engineering</li>
+                    </ul>
+                </div>
+                <div class="tab-contents"id="location">
+                    <ul>
+                        <li><span>COUNTRY</span><br>India</li>
+                        <li><span>STATE</span><br> Tamilnadu</li>
+                        <li><span>DISTRICT</span><br>Chengalpattu</li>
+                        <li><span>CITY</span><br>Chromepet</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/project on process.jpg">
+                <div class="layer">
+                    <h3>Learner</h3>
+                    <p>Welcome to my portfolio !! As a Computer Science student,my journey has been focused on building a solid foundation in various programming
+                        languages and fundamental concepts. While I may not have specific projects to showcase at the moment,I am enthusiastic about applying 
+                        my knowledge to real-world challenges.<br>
+                        I am a member of IEEE society, in which my participation has been mentioned in next module.<br>
+                        Although I haven't undertaken specific projects yet,I have gained pratical experience through taking part in events 
+                        and attending web development classes in ZERO SOLUTION.<br>
+                        I am eager to embark on new projects and collaborations to further enhance my skills. Stay tuned for updates on my journey!
+                        I think even this personal portfolio about me will be one of my works, which i could specify in my future.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-book"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/ieee1.png">
+                <div class="layer">
+                    <h3>IEEE Member</h3>
+                    <p>IEEE is the world’s largest technical professional organization dedicated to advancing
+                         technology for the benefit of humanity.<br>
+                         Participated in Hackathon conducted by IEEE organization and gained a good knowledge and also a good experience.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-book"></i></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+<div id="contact">
+     <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                 <h1 class="sub-title">Contact Me</h1>
+                 <p><i class="fa-solid fa-envelope"></i>mharinimadan@gmail.com</p>
+                 <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                 <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/harini-m-b4743329b"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/harini-m-b4743329b"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/harini-m-b4743329b"><i class="fa-brands fa-square-whatsapp"></i></a>
+                 </div>
+                 <a href="images/learner.jpg" type="button" class="btn btn2">Download CV</a>
+                 </div>
+            <div class="contact-right"> 
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2"><span>SUBMIT</span></button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+     </div>
+     <div class="copyright">
+        <p>Copyright @Harini.Thank you for visiting my portfolio<i class="fa-solid fa-heart"></i></p>
+     </div>
+</div>
+
+
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+    var tablinks=document.getElementsByClassName("tab-links");
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbypYSRcQ1lmEelxq7iWd5YX0JgN30_2hWU8nTRIXYBXjpgold4WgZ38RNPdaCQ5vBKj/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
